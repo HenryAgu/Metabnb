@@ -1,6 +1,6 @@
 // Components
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import Hero from "./components/Hero";
 import Adventure from "./components/Adventure";
 
 // React Router
@@ -14,7 +14,7 @@ function App() {
         <div>
           <Switch>
             <Route exact path="/">
-              <Home/>
+              <Hero/>
               <Adventure/>
             </Route>
           </Switch>

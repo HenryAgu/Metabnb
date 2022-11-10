@@ -1,5 +1,5 @@
 // Stylesheets
-import "./Home.css";
+import "./Hero.css";
 
 // Images
 import hero from "../images/hero.png";
