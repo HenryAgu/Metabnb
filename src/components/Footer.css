@@ -1,0 +1,9 @@
+footer{
+    background: #1D1D1E;
+}
+
+.inner-footer{
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 50px;
+}
