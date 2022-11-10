@@ -1,0 +1,13 @@
+.adventure-header h1 {
+  text-align: center;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.adventure-box{
+    margin-top: 50px;
+}

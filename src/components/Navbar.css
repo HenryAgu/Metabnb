@@ -1,5 +1,5 @@
 .navbar {
-  height: 15vh;
+  height: 12vh;
   width: 100%;
   font-family: "Red Rose";
 }
@@ -7,7 +7,7 @@
 .navbar-end {
   display: flex;
   justify-content: center;
-  margin-right: 230px;
+  margin-right: 200px;
 }
 
 #navMenu button {
@@ -26,22 +26,27 @@
   font-size: 16px;
   line-height: 20px;
   cursor: pointer;
+  transition: 0.5s ease;
 }
 
+#navMenu button:hover {
+  background: white;
+  color: #a02279;
+}
 
 /* Responsiveness starts here */
 /* Large Screens */
 @media (max-width: 1024px) {
-    .navbar-end {
-        display: flex;
-        justify-content: center;
-        margin-right: 110px;
-      }
+  .navbar-end {
+    display: flex;
+    justify-content: center;
+    margin-right: 110px;
+  }
 }
 
 /* medium screens */
 @media (max-width: 991px) {
-    .navbar-end{
-        flex-direction: column;
-    }
+  .navbar-end {
+    flex-direction: column;
+  }
 }
