@@ -1,3 +1,4 @@
+
 .adventure-header h1 {
   text-align: center;
   font-family: "Red Rose";
@@ -21,14 +22,13 @@
 .adventure-card {
   background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
   padding: 10px;
-  width: fit-content;
   border: 1px solid #d7d7d7;
   border-radius: 15px;
 }
 
 .adventure-card img {
   height: 265px;
-  width: 260px;
+  width: 100%;
 }
 
 .adventure-card-text{
@@ -53,4 +53,30 @@
 .rating img{
     width: 100px;
     height: 15px;
+}
+
+/* Responsiveness starts here */
+@media (max-width: 1024px) {
+  .adventure-box {
+    width: 95%;
+  }
+}
+
+/* medium screens */
+@media (max-width: 991px) {
+  .adventure-header h1 {
+    font-size: 32px;
+  }
+  .adventure-box {
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    width: 80%;
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  .adventure-box {
+    grid-template-columns: 1fr;
+  }
 }

@@ -46,7 +46,14 @@
 
 /* medium screens */
 @media (max-width: 991px) {
+  .navbar {
+    height: 3vh;
+  }
   .navbar-end {
     flex-direction: column;
+    margin-left: 20px;
+  }
+  #navMenu button{
+    margin-left: 20px;
   }
 }

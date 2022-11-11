@@ -7,7 +7,8 @@ import "./Navbar.css";
 import { Link } from 'react-router-dom'
 
 // Images
-import Logo1 from "../images/Logo1.png";
+import Logo1
+ from "../images/Logo1.png";
 import Logo2 from "../images/Logo2.png";
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -17,7 +18,7 @@ function Navbar() {
         <nav className="navbar is-transparent is-light has-background-white">
           <div className="container">
             <div className="navbar-brand">
-              <Link className="navbar-item" to="/">
+              <Link className="navbar-item" to="/" onClick={() => setShowMenu(!showMenu)}>
                 <div className="logo">
                     <img src={Logo1} alt="Logo1" />
                     <img src={Logo2} alt="Logo2" />
@@ -41,6 +42,7 @@ function Navbar() {
                   className="navbar-item has-text-weight-medium"
                   to="/"
                   style={{ color: "#434343" }}
+                  onClick={() => setShowMenu(!showMenu)}
                 >
                   Home
                 </Link>
@@ -48,6 +50,7 @@ function Navbar() {
                   className="navbar-item has-text-weight-medium"
                   to="/place-to-stay"
                   style={{ color: "#434343" }}
+                  onClick={() => setShowMenu(!showMenu)}
                 >
                   Place to stay
                 </Link>
@@ -55,6 +58,7 @@ function Navbar() {
                   className="navbar-item has-text-weight-medium"
                   to="/nfts"
                   style={{ color: "#434343" }}
+                  onClick={() => setShowMenu(!showMenu)}
                 >
                   NFTs
                 </Link>
@@ -62,11 +66,12 @@ function Navbar() {
                   className="navbar-item has-text-weight-medium"
                   to="/community"
                   style={{ color: "#434343" }}
+                  onClick={() => setShowMenu(!showMenu)}
                 >
                   Community
                 </Link>
               </div>
-              <Link className="navbar-item has-text-weight-medium" to="/connect-wallet">
+              <Link className="navbar-item has-text-weight-medium" to="/connect-wallet" onClick={() => setShowMenu(!showMenu)}>
                   <button>Connect wallet</button>
                 </Link>
             </div>

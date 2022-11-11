@@ -57,3 +57,32 @@
 .nft-image {
   width: 50%;
 }
+
+/* medium screens */
+@media (max-width: 991px) {
+  .nft-text button {
+    width: 35%;
+  }
+  .nft-text button:hover{
+    width: 40%;
+  }
+  .nft-text h1 {
+    font-size: 43px;
+  }
+  .nft-text p {
+    font-size: 16px;
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  .inner-nft {
+    flex-direction: column-reverse;
+  }
+  .nft-text,.nft-image {
+    width: 100%;
+  }
+  .nft-text{
+    text-align: center;
+  }
+}

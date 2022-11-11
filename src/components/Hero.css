@@ -91,3 +91,59 @@
     justify-content: space-between;
     padding: 5px;
 }
+
+/* Responsiveness starts here */
+
+@media (max-width: 1024px) {
+  .hero-text-header {
+    font-size: 45px;
+  }
+  .hero-text p {
+    font-size: 20px;
+  }
+  .search input {
+    width: 70%;
+  }
+}
+
+@media (max-width: 991px) {
+  .home {
+    padding-top: 100px;
+  }
+  .home-hero-section {
+    flex-direction: column;
+  }
+  .hero-text,.hero-image{
+    width: 100%;
+    text-align: center;
+  }
+  .inner-sponsors{
+    width: 95%;
+  }
+  .search{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  .hero-text-header {
+    font-size: 45px;
+  }
+  .hero-text p {
+    font-size: 20px;
+  }
+  .search{
+    width: 95%;
+  }
+  .inner-sponsors{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .inner-sponsors img{
+    width: 50%;
+    margin: 10px auto;
+  }
+}
