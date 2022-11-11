@@ -129,6 +129,9 @@
 
 /* Small Screens */
 @media only screen and (max-width: 480px) {
+  .home-hero-section {
+    gap: 100px;
+  }
   .hero-text-header {
     font-size: 45px;
   }
