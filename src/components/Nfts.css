@@ -47,6 +47,11 @@
   font-size: 16px;
   line-height: 19px;
   cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.nft-text button:hover{
+    width: 35%;
 }
 
 .nft-image {
