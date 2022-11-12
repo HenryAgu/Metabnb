@@ -2,6 +2,7 @@
   height: 12vh;
   width: 100%;
   font-family: "Red Rose";
+  position: fixed;
 }
 
 .navbar-end {

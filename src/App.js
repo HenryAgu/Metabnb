@@ -1,3 +1,5 @@
+import { useState } from "react"
+
 // Components
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -9,8 +11,9 @@ import Place from "./components/Place";
 // React Router
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+
 function App() {
-  return (
+    return (
     <Router>
       <div className="App">
         <Navbar />
