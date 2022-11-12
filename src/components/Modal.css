@@ -82,3 +82,26 @@
   line-height: 23px;
   color: #000000;
 }
+
+
+/* Responsiveness starts here */
+
+@media (max-width: 1024px) {
+  .connect-wallet {
+    width: 50%;
+  }
+}
+
+/* medium screens */
+@media (max-width: 991px) {
+  .connect-wallet {
+    width: 70%;
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  .connect-wallet {
+    width: 90%;
+  }
+}

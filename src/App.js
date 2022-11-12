@@ -10,6 +10,7 @@ import Place from "./components/Place";
 
 // React Router
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Construction from "./components/Construction";
 
 
 function App() {
@@ -26,6 +27,12 @@ function App() {
             </Route>
             <Route exact path="/place-to-stay">
               <Place/>
+            </Route>
+            <Route exact path="/nfts">
+              <Construction/>
+            </Route>
+            <Route exact path="/community">
+              <Construction/>
             </Route>
           </Switch>
         </div>
