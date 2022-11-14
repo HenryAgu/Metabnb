@@ -88,6 +88,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    letter-spacing: 1.5px;
     gap: 50px;
   }
   .footer-list li{
