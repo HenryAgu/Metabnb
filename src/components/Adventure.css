@@ -80,6 +80,10 @@
 
 /* Small Screens */
 @media only screen and (max-width: 480px) {
+  .adventure-header h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
   .adventure-box {
     grid-template-columns: 1fr;
   }
