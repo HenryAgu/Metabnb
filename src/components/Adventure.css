@@ -56,6 +56,10 @@
 }
 
 /* Responsiveness starts here */
+@media (max-width: 1200px) {
+
+}
+
 @media (max-width: 1024px) {
   .adventure-box {
     width: 95%;
@@ -79,4 +83,8 @@
   .adventure-box {
     grid-template-columns: 1fr;
   }
+}
+
+@media only screen and (max-width: 320px){
+  
 }

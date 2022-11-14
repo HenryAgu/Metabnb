@@ -96,6 +96,10 @@
 
 /* Responsiveness starts here */
 
+@media (max-width: 1200px) {
+
+}
+
 @media (max-width: 1024px) {
   .hero-text-header {
     font-size: 45px;
@@ -151,4 +155,8 @@
     width: 50%;
     margin: 10px auto;
   }
+}
+
+@media only screen and (max-width: 320px){
+  
 }

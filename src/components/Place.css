@@ -79,6 +79,10 @@
 }
 
 /* Responsiveness starts here */
+@media (max-width: 1200px) {
+
+}
+
 @media (max-width: 1024px) {
     .place-header {
         gap: 30px;
@@ -118,4 +122,8 @@
     .nft-box {
       grid-template-columns: 1fr;
     }
-  }
+}
+
+@media (max-width: 320px) {
+
+}

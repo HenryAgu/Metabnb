@@ -86,6 +86,10 @@
 
 /* Responsiveness starts here */
 
+@media (max-width: 1200px) {
+
+}
+
 @media (max-width: 1024px) {
   .connect-wallet {
     width: 50%;
@@ -104,4 +108,8 @@
   .connect-wallet {
     width: 90%;
   }
+}
+
+@media (max-width: 320px) {
+
 }
