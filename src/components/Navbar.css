@@ -49,6 +49,8 @@
 @media (max-width: 991px) {
   .navbar {
     height: 3vh;
+    padding-top: 5px;
+    padding-bottom: 20px;
   }
   .navbar-end {
     flex-direction: column;
